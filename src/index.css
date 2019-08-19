@@ -17,7 +17,10 @@ main {
 .grid-view {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: row;
+
+
 }
 
 .page-view {
@@ -36,4 +39,10 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.card{
+  border:1px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
