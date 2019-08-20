@@ -7,7 +7,7 @@ export default function TabNav() {
 
 	return(
 		<div className='nav'>
-		<NavLink exact to="/">Home Page</NavLink>
+		<NavLink  exact to="/">Home Page</NavLink>
 		<NavLink to="/CharacterList">Characters</NavLink>
 		<NavLink to="/LocationsList">Location</NavLink>
 		<NavLink to="/Episode">Episodes</NavLink>

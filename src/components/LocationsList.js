@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function LocationsList() {
 	const [location, setLocation] = useState([])
-console.log(location)
+
 
 	useEffect(() => {
 
