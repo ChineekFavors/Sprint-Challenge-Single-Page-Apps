@@ -4,7 +4,7 @@ import axios from 'axios';
 function Episode(){
 	const [episode, setEpisode] = useState([])
 
-
+console.log(episode)
 	useEffect(() => {
 
 	    // TODO: Add AJAX/API Request here - must run in `useEffect`
@@ -24,7 +24,7 @@ function Episode(){
 
 	return(
 		<div>
-			
+
 			{episode.map(episode => 
         		<div key={episode.id} className='episodeList'>
           			<h3>name: {episode.name}</h3>
