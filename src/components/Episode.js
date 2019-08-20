@@ -4,7 +4,7 @@ import axios from 'axios';
 function Episode(){
 	const [episode, setEpisode] = useState([])
 
-console.log(episode)
+
 	useEffect(() => {
 
 	    // TODO: Add AJAX/API Request here - must run in `useEffect`
