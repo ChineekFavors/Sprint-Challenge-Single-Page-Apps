@@ -17,7 +17,10 @@ main {
 .grid-view {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: row;
+
+
 }
 
 .page-view {
@@ -37,3 +40,58 @@ main {
 header h1 {
   text-align: center;
 }
+
+.card{
+  border:1px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.locationsList{
+  border:1px solid black;
+  width: 40%;
+  display: inline-block;
+  justify-content:space-between;
+ 
+  flex-direction: column;
+  margin-right: 30px;
+  margin-left: 50px;
+   margin-bottom: 20px;
+}
+.residents{
+  text-align: center;
+  margin-left: 290px;
+  background-color: gray;
+  color: white;
+  width: 100px;
+   
+}
+
+.episodeList{
+  border:1px solid black;
+  width: 40%;
+   display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
